@@ -1,0 +1,141 @@
+.pag-fil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+
+    .paradas{
+        box-shadow: #747474 0px 0px 14px;
+
+        height: 750px;
+        
+    }
+
+    .titulo{
+        background-image: url(../../images/fundo.png);
+        background-size: cover;
+        width: 495px;
+        height: 128px;
+
+        display: flex;
+        align-items: end;
+        padding: 20px;
+
+    }
+    .titulo h1{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        background-color: #111111a3;
+    }
+
+
+    .pesquisador{
+        height: 45px;
+        padding: 20px;
+
+        position: relative;
+    }
+
+    .pesquisador h2{
+        font-size: 18px;
+        font-weight: 600;
+        color: #646464 ;
+    }
+
+
+    .pesquisa label{
+        position: absolute;
+        left: 40px;
+        top: 80px;
+
+        font-size: 10px;
+        font-weight: 700;
+        color: #C5BC4D;
+
+    }
+
+
+    .pesquisa input{
+        border: 1px solid #C5BC4D;
+        border-radius: 3px;
+
+        font-size: 14px;
+        font-weight: 500;
+        color: #747474;
+
+        width: 90%;
+        padding: 20px;
+
+        outline: none;
+    }
+    .pesquisa button{
+        position: absolute;
+        border: none;
+        background-color:  transparent;
+
+        right: 30px;
+        top: 90px;
+
+    }
+
+    table{
+        border-collapse: collapse;
+    }
+
+
+    th{
+        font-size: 14px;
+        font-weight: 600;
+        color: #A0960D;
+
+        margin: 20px  ;
+
+    }
+    td{
+        font-size: 12px;
+        font-weight: 500;
+        margin: 20px;
+
+    }
+
+    td:first-child{
+        font-weight: 800;
+        margin: 0px;
+    }
+
+    .linha{
+        padding: 20px;
+        border-radius: 20px;
+        width: 100%;
+
+    }
+
+    .linha:hover{
+        transition: 0.5s;
+
+        background-color: #C5BC4D;
+        color: #fff;
+
+        .poster img{
+            display: block;
+        }
+    }
+
+
+    .poster img{
+        width: 55px;
+        height: 55px;
+        border-radius: 200px;
+
+        display: none;
+    }
+
+    td i{
+        width: 55px;
+        height: 55px;
+    }
+
+
+
+}

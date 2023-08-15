@@ -1,0 +1,19 @@
+.pag-med{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    .calculadora{
+        border: 1px solid #000;
+        height: 300px;
+        width: 200px;
+
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .calculadora input{
+        margin-bottom: 20px;
+    }
+}
